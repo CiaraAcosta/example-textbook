@@ -1,9 +1,16 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-book
+format: jb-article
 root: intro
-chapters:
+options:
+  numbered: true
+sections:
 - file: markdown
 - file: notebooks
 - file: markdown-notebooks
+- file: ch-01
+  title: An Example Section
+  sections:
+  - file: ch-01-1
+    title: An Example SubSection
